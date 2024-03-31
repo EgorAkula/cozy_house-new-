@@ -181,3 +181,58 @@ h6 {
     text-align: left;
     width: 575px;
 }
+
+.btn {
+    background: #f1cdb3;
+    padding: 20px;
+    letter-spacing: 0.5px;
+    border-radius: 350px;
+    text-decoration: none;
+    color: #292929;
+}
+
+.friends {
+    background-color: #f6f6f6;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.friends__title {
+    margin-bottom: 60px;
+    color: #545454;
+    font-size: 43px;
+}
+
+.friends__slider {
+    position: relative;
+}
+
+.slider__list {
+    display: flex;
+    padding-right: 106px;
+    padding-left: 106px;
+    gap: 30px 40px;
+    justify-content: space-between;
+}
+
+.slider__controls {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+}
+
+.slider__control {
+    display: block;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.slider__control_left {
+    left: 0;
+}
+
+.slider__control_right {
+    right: 0;
+}
