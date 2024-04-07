@@ -28,6 +28,7 @@ h6 {
 
 .wrapper {
     min-height: 100%;
+    overflow: hidden;
 }
 
 .hero {
@@ -35,11 +36,13 @@ h6 {
     min-height: 908px;
     background-image: url(../img/start-screen-gradient-background.png);
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .container {
     max-width: 1280px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .content__header {}
@@ -57,6 +60,7 @@ h6 {
     font-size: 32px;
     letter-spacing: 0.06em;
     color: #f1cdb3;
+    white-space: nowrap;
 }
 
 .logo-text2 {
@@ -65,6 +69,7 @@ h6 {
     font-size: 13px;
     letter-spacing: 0.1em;
     color: #fff;
+    white-space: nowrap;
 }
 
 .nav {
@@ -83,6 +88,7 @@ h6 {
     color: #cdcdcd;
     transition: color 0.4;
     font-size: 25px;
+    white-space: nowrap;
 }
 
 .nav__link:hover {
@@ -136,8 +142,11 @@ h6 {
 .img__mid {}
 
 .img__mid-dog {
+    width: 698px;
+    height: 628px;
     overflow: hidden;
-    height: 100%;
+    object-fit: contain;
+    object-position: bottom;
 }
 
 .info {}
@@ -236,3 +245,11 @@ h6 {
 .slider__control_right {
     right: 0;
 }
+
+.friends__btn-wrap {
+    padding-top: 100px;
+}
+
+.friends__btn {}
+
+.hero__btn-wrap {}

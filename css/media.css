@@ -1,0 +1,43 @@
+@media (max-width:1250px) {
+    .link__mid-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .info__mid {
+        margin: 0 auto;
+    }
+
+    .content__mid {
+        flex-wrap: wrap;
+        flex-shrink: 0;
+    }
+
+    .img__mid-dog {
+        flex-shrink: 0;
+    }
+
+    .content__info {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:1100px) {
+    .img__info {
+        min-width: 350px;
+        padding-right: 50px;
+    }
+
+    .text__info {
+        font-size: 35px;
+    }
+
+    .paragraph1__info {
+        font-size: 15px;
+    }
+
+    .paragraph2__info {
+        font-size: 15px;
+    }
+}
