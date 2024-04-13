@@ -250,6 +250,171 @@ h6 {
     padding-top: 100px;
 }
 
+.friend__btn {
+    border-color: #f1cdb3;
+    border-style: solid;
+    letter-spacing: 0.6px;
+}
+
 .friends__btn {}
 
 .hero__btn-wrap {}
+
+.help {
+    padding: 55px;
+}
+
+.donation {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background-color: #f6f6f6;
+}
+
+.donation__wrap {
+    display: flex;
+}
+
+.donation__img-wrap {
+    flex-shrink: 0;
+}
+
+.donation__img {
+
+    height: 261px;
+    width: 505px;
+}
+
+.donation__info-wrap {
+    padding-left: 65px;
+}
+
+.donation__info-txt1 {
+    font-size: 35px;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.donation__info-bank {}
+
+.donation__info-img {
+    padding-right: 10px;
+}
+
+.donation__info-distribution {
+    display: flex;
+    align-items: center;
+    color: #545454;
+    background-color: #f1cdb3;
+    border-radius: 9px;
+    padding: 10px 15px;
+    width: 349px;
+    height: 43px;
+    font-size: 21.5px;
+    letter-spacing: 0.06em;
+}
+
+.donation__info-card {
+    color: #545454;
+}
+
+.donation__info-txt2 {
+    color: #b2b2b2;
+}
+
+.footer {
+    background-image: url(../img/start-screen-gradient-background.png);
+}
+
+.container-footer {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer__wrap {
+    padding-top: 50px;
+    display: flex;
+}
+
+.footer__suggestions {
+    width: 278px;
+    height: 234px;
+    margin-right: 40px;
+}
+
+.footer__text-main {
+    font-size: 35px;
+    letter-spacing: 0.06em;
+    color: #fff;
+}
+
+.footer__content-mid {
+    padding-top: 10px;
+    display: flex;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    color: #f1cdb3;
+}
+
+.footer__mail-img {
+    padding-right: 10px;
+}
+
+.footer__mail-text {}
+
+.footer__content-bottom {
+    padding-top: 15px;
+    display: flex;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    color: #f1cdb3;
+}
+
+.footer__phone-img {
+    padding-right: 10px;
+}
+
+.footer__phone-text {}
+
+.footer__adress {
+    width: 302px;
+    height: 234px;
+}
+
+.footer__text-top {
+    font-size: 35px;
+    letter-spacing: 0.06em;
+    color: #fff;
+}
+
+.footer__adress-mid {
+    display: flex;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    color: #f1cdb3;
+}
+
+.footer__adress-img {
+    padding-right: 10px;
+}
+
+.footer__adress-text1 {}
+
+.footer__adress-bottom {
+    display: flex;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    color: #f1cdb3;
+}
+
+.footer__adress-text2 {}
+
+.footer__adress-img2 {
+    padding-right: 10px;
+}
+
+.footer__img {
+    padding-top: 20px;
+    padding-left: 250px;
+}
