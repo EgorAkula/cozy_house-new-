@@ -14,7 +14,13 @@
         flex-shrink: 0;
     }
 
+    .img__mid {
+        margin: 0 auto;
+        width: 569px;
+    }
+
     .img__mid-dog {
+        width: 100%;
         flex-shrink: 0;
     }
 
@@ -43,8 +49,41 @@
 }
 
 @media (max-width:768px) {
-    .slider__list {
-        gap: 30px 40px;
+    .nav {
+        overflow: hidden;
+        width: 0;
+        height: 0;
+        transition: width 0.3s;
+    }
+
+    .nav.active {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 320px;
+        height: auto;
+        background: #292929;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav__list {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .nav__link {
+        font-family: 'Arial';
+        font-weight: 400;
+        font-size: 32px;
+        color: #CDCDCD;
+    }
+
+    .burger {
+        display: flex;
+        transition: transform 0.3s;
     }
 }
 
