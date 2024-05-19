@@ -294,9 +294,50 @@ h6 {
 
 .hero__btn-wrap {}
 
+
 .help {
-    padding: 55px;
+    padding-top: 50px;
+    padding-bottom: 65px;
+    text-align: center;
+    color: #4c4c4c;
 }
+
+.container {}
+
+.help__content {}
+
+.section__title {}
+
+.help__title {
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.help__list {
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 75px;
+    color: #4c4c4c;
+    margin: 0 auto;
+    display: flex;
+    max-width: 1026px;
+    gap: 55px 120px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.help__item {
+    max-height: 113px;
+}
+
+.help__item-img {
+    height: 113px;
+}
+
+.help__name {
+    padding-top: 10px;
+}
+
 
 .donation {
     padding-top: 55px;
